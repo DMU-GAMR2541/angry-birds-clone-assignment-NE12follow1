@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\test_src\RunTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\Slingshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{867756DB-D026-3147-9089-05CDF86BFF0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{048B9030-4A5F-38B0-AE87-E6D4AD87B6FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

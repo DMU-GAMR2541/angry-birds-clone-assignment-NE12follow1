@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\8033490fec3e47e9aa920e4c52b3c3ed\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\8033490fec3e47e9aa920e4c52b3c3ed\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\8033490fec3e47e9aa920e4c52b3c3ed\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\8033490fec3e47e9aa920e4c52b3c3ed\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\8033490fec3e47e9aa920e4c52b3c3ed\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\8033490fec3e47e9aa920e4c52b3c3ed\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\8033490fec3e47e9aa920e4c52b3c3ed\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\8033490fec3e47e9aa920e4c52b3c3ed\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\36ca482b72c2a54fd6285d721e0f3f25\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\ade139a1abfdd7674eab9d2ecfd40675\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6AD5FF7E-ECCB-3A36-82B3-9198860B7467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

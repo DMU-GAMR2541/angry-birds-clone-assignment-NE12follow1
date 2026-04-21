@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include "Enemy.h"
+#include "Slingshot.h"
 
 /// <summary>
 ///Taken from the GoogleTest primer. 
@@ -40,17 +41,54 @@ protected:
 
 };
 
+// The fixture for testing class Slingshot.
+class SlingshotTest : public testing::Test {
+public:
+    std::unique_ptr<Slingshot> slingshot;
+protected:
+
+    SlingshotTest() {
+
+    }
+
+    void SetUp() override {
+        slingshot = std::make_unique<Slingshot>();
+    }
+
+
+};
+
 //A single test, not a fixture. No setup is called.
-TEST(Enemy, First_test) {
+TEST(Enemy, PigConstructorAssignsCorrectHealthValue) {
     Enemy e(100);
-    EXPECT_GT(e.getHealth(), 100);
-    SUCCEED() << "Test test passed";
-    FAIL() << "Test didn't pass";
+    EXPECT_EQ(e.getHealth(), 100);
+    /*SUCCEED() << "Test test passed";
+    FAIL() << "Test didn't pass";*/
+}
+
+TEST(Enemy, PigStartsNotPopped) {
+    Enemy e(100);
+    EXPECT_FALSE(e.checkIfPopped());
 }
 
 TEST_F(EnemyTest, LethalDamagePopsPig) {
     enemy->takeDamage(60);
     EXPECT_TRUE(enemy->checkIfPopped());
+}
+
+TEST_F(EnemyTest, NonLethalDamageDoesNotPopPig) {
+    enemy->takeDamage(30);
+    EXPECT_FALSE(enemy->checkIfPopped());
+}
+
+TEST_F(SlingshotTest, SlingshotTensionStartsAt0) {
+    EXPECT_EQ(slingshot->getTension(), 0);
+}
+
+TEST_F(SlingshotTest, DefaultBirdIsRed) {
+    std::string str = "Red";
+    const char* c = str.c_str();
+    EXPECT_STREQ(slingshot->getBirdType().c_str(), c);
 }
 
 int main(int argc, char** argv) {

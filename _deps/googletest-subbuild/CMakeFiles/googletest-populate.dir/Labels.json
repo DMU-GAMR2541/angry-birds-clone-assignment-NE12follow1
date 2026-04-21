@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/ade139a1abfdd7674eab9d2ecfd40675/googletest-populate.rule"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/36ca482b72c2a54fd6285d721e0f3f25/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/8033490fec3e47e9aa920e4c52b3c3ed/googletest-populate-build.rule"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/8033490fec3e47e9aa920e4c52b3c3ed/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/8033490fec3e47e9aa920e4c52b3c3ed/googletest-populate-download.rule"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/8033490fec3e47e9aa920e4c52b3c3ed/googletest-populate-install.rule"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/8033490fec3e47e9aa920e4c52b3c3ed/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/8033490fec3e47e9aa920e4c52b3c3ed/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/8033490fec3e47e9aa920e4c52b3c3ed/googletest-populate-test.rule"
+		},
+		{
+			"file" : "H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/googletest-subbuild/CMakeFiles/8033490fec3e47e9aa920e4c52b3c3ed/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

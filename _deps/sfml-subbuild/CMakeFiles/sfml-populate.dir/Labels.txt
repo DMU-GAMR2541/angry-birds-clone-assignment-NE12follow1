@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/dea6f68f8d055145d4baed897c9b9a1c/sfml-populate.rule
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/952bbb63f4e040eb555b54ca3209a395/sfml-populate-complete.rule
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/d518b532fe59b3c33eceb17847095c0c/sfml-populate-build.rule
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/d518b532fe59b3c33eceb17847095c0c/sfml-populate-configure.rule
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/d518b532fe59b3c33eceb17847095c0c/sfml-populate-download.rule
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/d518b532fe59b3c33eceb17847095c0c/sfml-populate-install.rule
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/d518b532fe59b3c33eceb17847095c0c/sfml-populate-mkdir.rule
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/d518b532fe59b3c33eceb17847095c0c/sfml-populate-patch.rule
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/d518b532fe59b3c33eceb17847095c0c/sfml-populate-test.rule
+H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/_deps/sfml-subbuild/CMakeFiles/d518b532fe59b3c33eceb17847095c0c/sfml-populate-update.rule
