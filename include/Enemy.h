@@ -9,14 +9,18 @@ class Enemy : public DynamicObject {
 private:
     int i_health;
     bool b_isDestroyed;
-    float f_xPos = 0;
-    float f_yPos = 0;
     std::string s_enemyType = "swine";
 
 public:
     //Default constructor for an enemy. 
     Enemy() = default;
-    Enemy(int i_initialHealth, float x, float y) : i_health(i_initialHealth), b_isDestroyed(false), f_xPos(x), f_yPos(y) {}
+    Enemy(int i_initialHealth, float x, float y) {
+        this->i_health = i_initialHealth;
+        this->b_isDestroyed = false;
+        this->f_xPos = x;
+        this->f_yPos = y;
+        this->v_Pos = b2Vec2(x, y);
+    }
 
     //Class functions to be tested.
     void takeDamage(int damage) {
@@ -32,8 +36,9 @@ public:
         return i_health; 
     }
 
-    void getPos() {
+    b2Vec2 getPos() {
         std::cout << "X: " << f_xPos << " Y: " << f_yPos;
+        return v_Pos;
     }
 
     float getXPos() {

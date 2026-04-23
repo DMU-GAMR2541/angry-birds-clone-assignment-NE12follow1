@@ -2,5 +2,11 @@
 #include "GameObject.h"
 
 class StaticObject : public GameObject {
+protected:
 
+public:
+
+	void render() override {
+
+	}
 };

@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include "DynamicObject.h"
+#include "Bird.h"
 
 /// <summary>
 /// A simple class that you can use to begin the testing process using Googletest.

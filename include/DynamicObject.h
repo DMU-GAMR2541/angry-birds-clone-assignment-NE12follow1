@@ -2,9 +2,11 @@
 #include "GameObject.h"
 
 class DynamicObject : public GameObject {
+protected:
+
 public:
 
-	void render() {
+	void render() override {
 
 	}
 };

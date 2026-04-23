@@ -6,22 +6,22 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\Bird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\DynamicObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\Slingshot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GameObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\DynamicObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\StaticObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Bird.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\StaticObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
