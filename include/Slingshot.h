@@ -1,10 +1,11 @@
 #pragma once
 #include <string>
+#include "DynamicObject.h"
 
 /// <summary>
 /// A simple class that you can use to begin the testing process using Googletest.
 /// </summary>
-class Slingshot {
+class Slingshot : public DynamicObject {
 private:
     /// <summary>
     /// Variables that define the slingshot.
