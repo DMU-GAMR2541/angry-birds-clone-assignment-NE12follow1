@@ -1,6 +1,9 @@
 #include <SFML/Graphics.hpp>
 #include <box2d/box2d.h>
 #include <iostream>
+#include "Enemy.h"
+#include "Bird.h"
+#include "Slingshot.h"
 
 int main() {
     // --- 1. WINDOW SETUP ---

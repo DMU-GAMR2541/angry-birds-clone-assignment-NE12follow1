@@ -1,5 +1,4 @@
 #pragma once
-#include <string>
 #include "DynamicObject.h"
 #include "Bird.h"
 
@@ -27,8 +26,13 @@ public:
         return true;
     }
 
-    int getTension() const { return i_tension; }
-    std::string getBirdType() const { return str_birdType; }
+    int getTension() const { 
+        return i_tension; 
+    }
+
+    std::string getBirdType() const { 
+        return str_birdType; 
+    }
 
     void release() { i_tension = 0; }
 };

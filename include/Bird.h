@@ -5,12 +5,13 @@ class Bird : public DynamicObject {
 private:
 	float f_speed;
 	float f_mass;
-	std::string s_type;
+	std::string str_type;
 
 public:
 	Bird() = default;
-	Bird(std::string s_type, float f_speed, float f_mass) {
-		this->s_type = s_type;
+	Bird(std::string str_type, std::string str_spriteLocation, float f_speed, float f_mass) {
+		this->str_type = str_type;
+		this->str_spriteLocation = str_spriteLocation;
 		this->f_speed = f_speed;
 		this->f_mass = f_mass;
 	}
@@ -32,10 +33,10 @@ public:
 	}
 
 	std::string GetType() {
-		return s_type;
+		return str_type;
 	}
 
 	void SetType(std::string type) {
-		s_type = type;
+		str_type = type;
 	}
 };

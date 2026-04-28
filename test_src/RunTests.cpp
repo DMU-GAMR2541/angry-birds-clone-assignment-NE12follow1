@@ -29,7 +29,7 @@ protected:
     void SetUp() override {
         // Code here will be called immediately after the constructor (right
         // before each test).
-        enemy = std::make_unique<Enemy>(50, 0, 0); // All enemnies in this test suite start with 50 HP.
+        enemy = std::make_unique<Enemy>("swine", 1, 50, 0, 0); // All enemnies in this test suite start with 50 HP.
                     
     }
 
@@ -60,19 +60,19 @@ protected:
 
 //A single test, not a fixture. No setup is called.
 TEST(Enemy, PigConstructorAssignsCorrectHealthValue) {
-    Enemy e(100, 0, 0);
+    Enemy e("swine", 1, 100, 0, 0);
     EXPECT_EQ(e.getHealth(), 100);
     /*SUCCEED() << "Test test passed";
     FAIL() << "Test didn't pass";*/
 }
 
 TEST(Enemy, PigStartsNotPopped) {
-    Enemy e(100, 0, 0);
+    Enemy e("swine", 1, 100, 0, 0);
     EXPECT_FALSE(e.checkIfPopped());
 }
 
 TEST(Enemy, PigPosSetCorrectly) {
-    Enemy e(100, 15, 20);
+    Enemy e("swine", 1, 100, 15, 20);
     ASSERT_EQ(e.getXPos(), 15);
     ASSERT_EQ(e.getYPos(), 20);
 }
@@ -94,7 +94,7 @@ TEST_F(EnemyTest, EnemyTypeStartsAsSwine) {
 }
 
 TEST_F(EnemyTest, EnemyTypeCanBeChanged) {
-    std::string newType = "sow";
+    std::string newType = "armoured";
     enemy->setType(newType);
     const char* c = newType.c_str();
     EXPECT_STREQ(enemy->getType().c_str(), c);
