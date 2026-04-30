@@ -7,10 +7,12 @@ class Enemy : public DynamicObject {
 /// Varaibles that define an enemy.
 /// </summary>
 private:
+    int i_maxHealth;
     int i_health;
     bool b_isDestroyed;
     std::string str_enemyType = "swine";
     int i_enemySubtype;
+    int i_healthThreashold;
 
 public:
     //Default constructor for an enemy. 
@@ -18,7 +20,8 @@ public:
     Enemy(std::string str_enemyType, int i_enemySubtype, int i_initialHealth, float x, float y) {
         this->str_enemyType = str_enemyType;
         this->i_enemySubtype = i_enemySubtype;
-        this->i_health = i_initialHealth;
+        this->i_maxHealth = i_initialHealth;
+        this->i_healthThreashold = 3;
         this->b_isDestroyed = false;
         this->f_xPos = x;
         this->f_yPos = y;
@@ -30,6 +33,9 @@ public:
         else if (str_enemyType == "armoured") {
             str_spriteLocation = "assets/Ang_Birds/sprite_3.png";
         }
+        else if (str_enemyType == "baron") {
+            str_spriteLocation = "assets/Ang_Birds/sprite_5.png";
+        }
     }
 
     //Class functions to be tested.
@@ -39,6 +45,12 @@ public:
         if (i_health <= 0) {
             i_health = 0;
             b_isDestroyed = true;
+        }
+        else if ((i_health / i_maxHealth) >= 0.5) {
+            i_healthThreashold = 2;
+        }
+        else {
+            i_healthThreashold = 1;
         }
     }
 

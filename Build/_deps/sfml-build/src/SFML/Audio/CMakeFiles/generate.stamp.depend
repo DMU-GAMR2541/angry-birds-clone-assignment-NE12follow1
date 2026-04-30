@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-src/cmake/Modules/FindFLAC.cmake
+C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-src/cmake/Modules/FindOpenAL.cmake
+C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-src/cmake/Modules/FindVORBIS.cmake
+C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake

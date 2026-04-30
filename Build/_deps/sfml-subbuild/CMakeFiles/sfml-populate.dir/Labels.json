@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/f7845f356c97c720ddc350225ada1d3c/sfml-populate.rule"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/93a7337195f698a33280899e9147fc02/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/9bae95a965462e36b4c807e986fb62e9/sfml-populate-build.rule"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/9bae95a965462e36b4c807e986fb62e9/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/9bae95a965462e36b4c807e986fb62e9/sfml-populate-download.rule"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/9bae95a965462e36b4c807e986fb62e9/sfml-populate-install.rule"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/9bae95a965462e36b4c807e986fb62e9/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/9bae95a965462e36b4c807e986fb62e9/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/9bae95a965462e36b4c807e986fb62e9/sfml-populate-test.rule"
+		},
+		{
+			"file" : "C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/sfml-subbuild/CMakeFiles/9bae95a965462e36b4c807e986fb62e9/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}
