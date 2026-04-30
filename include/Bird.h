@@ -16,6 +16,8 @@ public:
 		this->f_mass = f_mass;
 	}
 
+	~Bird() {}
+
 	float GetSpeed() {
 		return f_speed;
 	}

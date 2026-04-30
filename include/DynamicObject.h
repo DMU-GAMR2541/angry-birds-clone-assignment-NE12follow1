@@ -6,6 +6,7 @@ protected:
 	sf::Sprite sp_rendered;
 	sf::Texture sf_tex;
 	sf::RenderWindow sf_window;
+	sf::IntRect rect_spriteRect;
 
 public:
 	void loadSprite() override {
@@ -13,7 +14,7 @@ public:
 			std::cout << "Failed to load texture: " << str_spriteLocation << std::endl;
 		}
 
-		sp_rendered.setTexture(sf_tex);
+		sp_rendered = sf::Sprite(sf_tex, rect_spriteRect);
 
 		sp_rendered.setOrigin(sf_tex.getSize().x / 2.0f, sf_tex.getSize().y / 2.0f);
 	}

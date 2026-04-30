@@ -21,7 +21,7 @@ public:
         this->str_enemyType = str_enemyType;
         this->i_enemySubtype = i_enemySubtype;
         this->i_maxHealth = i_initialHealth;
-        this->i_healthThreashold = 3;
+        this->i_healthThreashold = 1;
         this->b_isDestroyed = false;
         this->f_xPos = x;
         this->f_yPos = y;
@@ -29,14 +29,19 @@ public:
 
         if (str_enemyType == "swine") {
             str_spriteLocation = "assets/Ang_Birds/sprite_2.png";
+            rect_spriteRect = sf::IntRect(0, 0, 89, 76);
         }
         else if (str_enemyType == "armoured") {
             str_spriteLocation = "assets/Ang_Birds/sprite_3.png";
+            rect_spriteRect = sf::IntRect(0, 0, 105, 91);
         }
         else if (str_enemyType == "baron") {
             str_spriteLocation = "assets/Ang_Birds/sprite_5.png";
+            rect_spriteRect = sf::IntRect(0, 0, 120, 109);
         }
     }
+
+    ~Enemy() {}
 
     //Class functions to be tested.
     void takeDamage(int damage) {
@@ -50,7 +55,7 @@ public:
             i_healthThreashold = 2;
         }
         else {
-            i_healthThreashold = 1;
+            i_healthThreashold = 3;
         }
     }
 
