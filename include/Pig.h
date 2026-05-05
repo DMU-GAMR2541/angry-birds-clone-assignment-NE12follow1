@@ -2,7 +2,7 @@
 #include <iostream>
 #include "DynamicObject.h"
 
-class Enemy : public DynamicObject {
+class Pig : public DynamicObject {
 /// <summary>
 /// Varaibles that define an enemy.
 /// </summary>
@@ -16,11 +16,12 @@ private:
 
 public:
     //Default constructor for an enemy. 
-    Enemy() = default;
-    Enemy(std::string str_enemyType, int i_enemySubtype, int i_initialHealth, float x, float y) {
+    Pig() = default;
+    Pig(std::string str_enemyType, int i_enemySubtype, int i_initialHealth, float x, float y) {
         this->str_enemyType = str_enemyType;
         this->i_enemySubtype = i_enemySubtype;
         this->i_maxHealth = i_initialHealth;
+        this->i_health = i_maxHealth;
         this->i_healthThreashold = 1;
         this->b_isDestroyed = false;
         this->f_xPos = x;
@@ -41,7 +42,7 @@ public:
         }
     }
 
-    ~Enemy() {}
+    ~Pig() {}
 
     //Class functions to be tested.
     void takeDamage(int damage) {
