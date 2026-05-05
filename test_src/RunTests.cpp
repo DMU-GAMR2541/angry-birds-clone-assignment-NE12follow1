@@ -71,8 +71,8 @@ TEST(Pig, PigStartsNotPopped) {
     EXPECT_FALSE(e.checkIfPopped());
 }
 
-TEST(Enemy, PigPosSetCorrectly) {
-    Enemy e("swine", 1, 100, 15, 20);
+TEST(Pig, PigPosSetCorrectly) {
+    Pig e("swine", 1, 100, 15, 20);
     ASSERT_EQ(e.getXPos(), 15);
     ASSERT_EQ(e.getYPos(), 20);
 }
