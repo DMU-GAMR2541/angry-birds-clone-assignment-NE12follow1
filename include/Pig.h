@@ -11,16 +11,14 @@ private:
     int i_health;
     bool b_isDestroyed;
     std::string str_enemyType = "pig";
-    int i_enemySubtype;
     int i_healthThreashold;
     b2CircleShape b2_dynamicCircle;
 
 public:
     //Default constructor for an enemy. 
     Pig() = default;
-    Pig(std::string str_enemyType, int i_enemySubtype, int i_initialHealth, float x, float y) {
+    Pig(std::string str_enemyType, int i_initialHealth, float x, float y) {
         this->str_enemyType = str_enemyType;
-        this->i_enemySubtype = i_enemySubtype;
         this->i_maxHealth = i_initialHealth;
         this->i_health = i_maxHealth;
         this->i_healthThreashold = 1;

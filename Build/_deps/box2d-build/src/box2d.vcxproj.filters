@@ -1,315 +1,315 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_broad_phase.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_broad_phase.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_chain_shape.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_chain_shape.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_circle_shape.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_circle_shape.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_collide_circle.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_collide_circle.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_collide_edge.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_collide_edge.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_collide_polygon.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_collide_polygon.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_collision.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_collision.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_distance.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_distance.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_dynamic_tree.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_dynamic_tree.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_edge_shape.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_edge_shape.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_polygon_shape.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_polygon_shape.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_time_of_impact.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\collision\b2_time_of_impact.cpp">
       <Filter>src\collision</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_block_allocator.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_block_allocator.cpp">
       <Filter>src\common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_draw.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_draw.cpp">
       <Filter>src\common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_math.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_math.cpp">
       <Filter>src\common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_settings.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_settings.cpp">
       <Filter>src\common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_stack_allocator.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_stack_allocator.cpp">
       <Filter>src\common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_timer.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\common\b2_timer.cpp">
       <Filter>src\common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_body.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_body.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_chain_circle_contact.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_chain_circle_contact.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_chain_polygon_contact.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_chain_polygon_contact.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_circle_contact.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_circle_contact.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_contact.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_contact.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_contact_manager.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_contact_manager.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_contact_solver.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_contact_solver.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_distance_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_distance_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_edge_circle_contact.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_edge_circle_contact.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_edge_polygon_contact.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_edge_polygon_contact.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_fixture.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_fixture.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_friction_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_friction_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_gear_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_gear_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_island.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_island.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_motor_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_motor_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_mouse_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_mouse_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_polygon_circle_contact.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_polygon_circle_contact.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_polygon_contact.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_polygon_contact.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_prismatic_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_prismatic_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_pulley_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_pulley_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_revolute_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_revolute_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_weld_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_weld_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_wheel_joint.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_wheel_joint.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_world.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_world.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_world_callbacks.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_world_callbacks.cpp">
       <Filter>src\dynamics</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\rope\b2_rope.cpp">
+    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\rope\b2_rope.cpp">
       <Filter>src\rope</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_chain_circle_contact.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_chain_circle_contact.h">
       <Filter>src\dynamics</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_chain_polygon_contact.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_chain_polygon_contact.h">
       <Filter>src\dynamics</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_circle_contact.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_circle_contact.h">
       <Filter>src\dynamics</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_contact_solver.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_contact_solver.h">
       <Filter>src\dynamics</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_edge_circle_contact.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_edge_circle_contact.h">
       <Filter>src\dynamics</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_edge_polygon_contact.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_edge_polygon_contact.h">
       <Filter>src\dynamics</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_island.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_island.h">
       <Filter>src\dynamics</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_polygon_circle_contact.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_polygon_circle_contact.h">
       <Filter>src\dynamics</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_polygon_contact.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\dynamics\b2_polygon_contact.h">
       <Filter>src\dynamics</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_api.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_api.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_block_allocator.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_block_allocator.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_body.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_body.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_broad_phase.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_broad_phase.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_chain_shape.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_chain_shape.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_circle_shape.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_circle_shape.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_collision.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_collision.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_common.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_common.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_contact.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_contact.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_contact_manager.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_contact_manager.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_distance.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_distance.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_distance_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_distance_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_draw.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_draw.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_dynamic_tree.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_dynamic_tree.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_edge_shape.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_edge_shape.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_fixture.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_fixture.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_friction_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_friction_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_gear_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_gear_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_growable_stack.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_growable_stack.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_math.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_math.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_motor_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_motor_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_mouse_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_mouse_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_polygon_shape.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_polygon_shape.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_prismatic_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_prismatic_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_pulley_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_pulley_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_revolute_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_revolute_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_rope.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_rope.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_settings.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_settings.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_shape.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_shape.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_stack_allocator.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_stack_allocator.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_time_of_impact.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_time_of_impact.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_timer.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_timer.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_time_step.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_time_step.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_types.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_types.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_weld_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_weld_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_wheel_joint.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_wheel_joint.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_world.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_world.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_world_callbacks.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\b2_world_callbacks.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\box2d.h">
+    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\include\box2d\box2d.h">
       <Filter>include\box2d</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\CMakeLists.txt" />
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-src\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{12ADB6C4-2C46-3E14-AE38-C383F639E5E4}</UniqueIdentifier>
+      <UniqueIdentifier>{566E4290-79AC-3CC0-AC0A-F8017A39BD20}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\box2d">
-      <UniqueIdentifier>{18C14BAB-93AE-397A-9AAF-C3BBA6BDE453}</UniqueIdentifier>
+      <UniqueIdentifier>{4D14CF71-BFE8-3979-AF80-BA1AA4044B2F}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{8C84B736-D2BC-357C-89C4-5E40C3F6B730}</UniqueIdentifier>
+      <UniqueIdentifier>{903B889B-A043-35B2-9B1E-7847644C509E}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\collision">
-      <UniqueIdentifier>{F8892C6F-843C-3D52-85CE-E31B326C854A}</UniqueIdentifier>
+      <UniqueIdentifier>{264A6D07-057E-381F-B770-F8D6F054125C}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\common">
-      <UniqueIdentifier>{F1BEC5D4-05CA-3724-B86E-C7D49097A388}</UniqueIdentifier>
+      <UniqueIdentifier>{388344C8-99CA-3F4B-AA9D-B461F9B88846}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\dynamics">
-      <UniqueIdentifier>{951180D7-2C10-3E63-8B8F-30364703E4E2}</UniqueIdentifier>
+      <UniqueIdentifier>{EE0BAEA5-576B-33FC-B19E-7E143D5E80E7}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\rope">
-      <UniqueIdentifier>{D12B0135-7678-3A35-B890-8050F5374479}</UniqueIdentifier>
+      <UniqueIdentifier>{677691BB-83F1-3AB8-9ED5-754E63CA2AE0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

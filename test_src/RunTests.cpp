@@ -29,7 +29,7 @@ protected:
     void SetUp() override {
         // Code here will be called immediately after the constructor (right
         // before each test).
-        enemy = std::make_unique<Pig>("pig", 1, 50, 0, 0); // All enemnies in this test suite start with 50 HP.
+        enemy = std::make_unique<Pig>("pig", 50, 0, 0); // All enemnies in this test suite start with 50 HP.
                     
     }
 
@@ -60,19 +60,19 @@ protected:
 
 //A single test, not a fixture. No setup is called.
 TEST(Pig, PigConstructorAssignsCorrectHealthValue) {
-    Pig e("pig", 1, 100, 0, 0);
+    Pig e("pig", 100, 0, 0);
     EXPECT_EQ(e.getHealth(), 100);
     /*SUCCEED() << "Test test passed";
     FAIL() << "Test didn't pass";*/
 }
 
 TEST(Pig, PigStartsNotPopped) {
-    Pig e("pig", 1, 100, 0, 0);
+    Pig e("pig", 100, 0, 0);
     EXPECT_FALSE(e.checkIfPopped());
 }
 
 TEST(Pig, PigPosSetCorrectly) {
-    Pig e("pig", 1, 100, 15, 20);
+    Pig e("pig", 100, 15, 20);
     ASSERT_EQ(e.getXPos(), 15);
     ASSERT_EQ(e.getYPos(), 20);
 }

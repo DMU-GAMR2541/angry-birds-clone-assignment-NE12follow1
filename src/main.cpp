@@ -90,6 +90,10 @@ int main() {
     sf_ballVisual.setOrigin(15.0f, 15.0f);
     sf_ballVisual.setFillColor(sf::Color::Yellow);
 
+    std::unique_ptr<Pig> pig1 (new Pig("pig", 100, 0, 0));
+    pig1->loadSprite();
+    pig1->render();
+
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {
         sf::Event event;
