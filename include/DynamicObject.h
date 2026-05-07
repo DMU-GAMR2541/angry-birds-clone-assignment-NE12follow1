@@ -7,6 +7,9 @@ protected:
 	sf::Texture sf_tex;
 	sf::RenderWindow sf_window;
 	sf::IntRect rect_spriteRect;
+	b2BodyDef b2_bodyDef;
+	b2FixtureDef b2_fixtureDef;
+	b2Body* b2_body;
 
 public:
 	void loadSprite() override {

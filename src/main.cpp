@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <box2d/box2d.h>
 #include <iostream>
-#include "Enemy.h"
+#include "Pig.h"
 #include "Bird.h"
 #include "Slingshot.h"
 

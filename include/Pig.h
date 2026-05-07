@@ -10,9 +10,10 @@ private:
     int i_maxHealth;
     int i_health;
     bool b_isDestroyed;
-    std::string str_enemyType = "swine";
+    std::string str_enemyType = "pig";
     int i_enemySubtype;
     int i_healthThreashold;
+    b2CircleShape b2_dynamicCircle;
 
 public:
     //Default constructor for an enemy. 
@@ -28,9 +29,9 @@ public:
         this->f_yPos = y;
         this->v_Pos = b2Vec2(x, y);
 
-        if (str_enemyType == "swine") {
-            str_spriteLocation = "assets/Ang_Birds/sprite_2.png";
-            rect_spriteRect = sf::IntRect(0, 0, 89, 76);
+        if (str_enemyType == "pig") {
+            str_spriteLocation = "assets/Ang_Birds/Pig.png";
+            rect_spriteRect = sf::IntRect(0, 0, 433, 427);
         }
         else if (str_enemyType == "armoured") {
             str_spriteLocation = "assets/Ang_Birds/sprite_3.png";
