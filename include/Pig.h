@@ -10,8 +10,8 @@ private:
     int i_maxHealth;
     int i_health;
     bool b_isDestroyed;
-    std::string str_enemyType = "pig";
-    int i_healthThreashold;
+    std::string str_enemyType;
+    //int i_healthThreashold;
     b2CircleShape b2_dynamicCircle;
 
 public:
@@ -21,7 +21,7 @@ public:
         this->str_enemyType = str_enemyType;
         this->i_maxHealth = i_initialHealth;
         this->i_health = i_maxHealth;
-        this->i_healthThreashold = 1;
+        //this->i_healthThreashold = 1;
         this->b_isDestroyed = false;
         this->f_xPos = f_posX;
         this->f_yPos = f_posY;
@@ -30,16 +30,20 @@ public:
         if (str_enemyType == "pig") {
             str_spriteLocation = "../assets/Ang_Birds/Pig.png";
             rect_spriteRect = sf::IntRect(0, 0, 433, 427);
-            this->f_spriteScaleX = 0.25;
-            this->f_spriteScaleY = 0.25;
+            this->f_spriteScaleX = 0.125;
+            this->f_spriteScaleY = 0.125;
         }
         else if (str_enemyType == "armoured") {
             str_spriteLocation = "../assets/Ang_Birds/sprite_3.png";
-            rect_spriteRect = sf::IntRect(0, 0, 105, 91);
+            rect_spriteRect = sf::IntRect(4, 2, 105, 91);
+            this->f_spriteScaleX = 0.75;
+            this->f_spriteScaleY = 0.75;
         }
         else if (str_enemyType == "baron") {
             str_spriteLocation = "../assets/Ang_Birds/sprite_5.png";
-            rect_spriteRect = sf::IntRect(0, 0, 120, 109);
+            rect_spriteRect = sf::IntRect(10, 4, 120, 109);
+            this->f_spriteScaleX = 0.8;
+            this->f_spriteScaleY = 0.8;
         }
     }
 
@@ -59,6 +63,13 @@ public:
         else {
             i_healthThreashold = 3;
         }*/
+    }
+
+    void setupB2d() {
+        b2_fixtureDef.shape = &b2_dynamicCircle;
+        b2_fixtureDef.density = 1.0f;
+        b2_fixtureDef.friction = 0.3f;
+        b2_fixtureDef.restitution = 0.5f;
     }
 
     int getHealth() const { 

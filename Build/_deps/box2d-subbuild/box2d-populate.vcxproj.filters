@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\6480d7a43243d67bf9649a0751bc16c2\box2d-populate-mkdir.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\0108c62296d150cd8c59cc422158997f\box2d-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\6480d7a43243d67bf9649a0751bc16c2\box2d-populate-download.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\0108c62296d150cd8c59cc422158997f\box2d-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\6480d7a43243d67bf9649a0751bc16c2\box2d-populate-update.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\0108c62296d150cd8c59cc422158997f\box2d-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\6480d7a43243d67bf9649a0751bc16c2\box2d-populate-patch.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\0108c62296d150cd8c59cc422158997f\box2d-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\6480d7a43243d67bf9649a0751bc16c2\box2d-populate-configure.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\0108c62296d150cd8c59cc422158997f\box2d-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\6480d7a43243d67bf9649a0751bc16c2\box2d-populate-build.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\0108c62296d150cd8c59cc422158997f\box2d-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\6480d7a43243d67bf9649a0751bc16c2\box2d-populate-install.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\0108c62296d150cd8c59cc422158997f\box2d-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\6480d7a43243d67bf9649a0751bc16c2\box2d-populate-test.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\0108c62296d150cd8c59cc422158997f\box2d-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\ca7cffefb9fb5387f9150467cf363dcc\box2d-populate-complete.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\e3b62dc302e4d68b3cb07846fdf0510e\box2d-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\bd1e7749784ea0eb6b2c2cc9c4cf7d4d\box2d-populate.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\441c4629f9de0e265d2d0382eee45db5\box2d-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\box2d-populate" />
+    <None Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\box2d-subbuild\CMakeFiles\box2d-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{1FD2F8C8-D497-3329-B67F-07808CA7B230}</UniqueIdentifier>
+      <UniqueIdentifier>{83333BB5-6FDF-357B-980B-628A944F3C93}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
