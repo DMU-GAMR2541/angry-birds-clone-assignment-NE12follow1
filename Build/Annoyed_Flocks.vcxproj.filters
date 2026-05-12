@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\src\main.cpp">
+    <ClCompile Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\Bird.h">
+    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\Bird.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\DynamicObject.h">
+    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\DynamicObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\GameObject.h">
+    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\Pig.h">
+    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\Pig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\Slingshot.h">
+    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\Slingshot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\include\StaticObject.h">
+    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\StaticObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\CMakeLists.txt" />
+    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{89E0A52E-87C1-31D7-8094-DDA4490F8214}</UniqueIdentifier>
+      <UniqueIdentifier>{9E079B34-0D51-35F4-A0B8-61CF6571C6E5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FF0D667B-6400-3B74-92A4-1A491282E273}</UniqueIdentifier>
+      <UniqueIdentifier>{7D6FFA0C-C61D-38AB-99EA-72E40AE7D3FE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -5,7 +5,6 @@ class DynamicObject : public GameObject {
 protected:
 	sf::Sprite sp_rendered;
 	sf::Texture sf_tex;
-	sf::RenderWindow sf_window;
 	sf::IntRect rect_spriteRect;
 	b2BodyDef b2_bodyDef;
 	b2FixtureDef b2_fixtureDef;
@@ -22,7 +21,7 @@ public:
 		sp_rendered.setOrigin(sf_tex.getSize().x / 2.0f, sf_tex.getSize().y / 2.0f);
 	}
 
-	void render() override {
+	void render(sf::RenderWindow& sf_window) override {
 		sf_window.draw(sp_rendered);
 	}
 };

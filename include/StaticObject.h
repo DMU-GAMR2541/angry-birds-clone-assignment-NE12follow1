@@ -9,7 +9,7 @@ public:
 
 	}
 
-	void render() override {
+	void render(sf::RenderWindow& sf_window) override {
 
 	}
 };

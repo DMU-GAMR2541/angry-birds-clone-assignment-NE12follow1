@@ -92,7 +92,6 @@ int main() {
 
     std::unique_ptr<Pig> pig1 (new Pig("pig", 100, 0, 0));
     pig1->loadSprite();
-    pig1->render();
 
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {
@@ -140,6 +139,7 @@ int main() {
         window.draw(sf_wallVisual);
         window.draw(sf_plankVisual);
         window.draw(sf_ballVisual);
+        pig1->render(window);
 
         window.display();
     }

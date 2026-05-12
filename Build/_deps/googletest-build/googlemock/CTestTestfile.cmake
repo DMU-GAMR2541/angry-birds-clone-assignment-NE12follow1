@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/Build/_deps/googletest-src/googlemock
-# Build directory: H:/Games Programming/GAMR2541/LabWork/angry-birds-clone-assignment-NE12follow1/Build/_deps/googletest-build/googlemock
+# Source directory: C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/googletest-src/googlemock
+# Build directory: C:/DMU/Game Programming/Year 2/GAMR2541/angry-birds-clone-assignment-NE12follow1/Build/_deps/googletest-build/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

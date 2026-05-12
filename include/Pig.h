@@ -28,15 +28,15 @@ public:
         this->v_Pos = b2Vec2(x, y);
 
         if (str_enemyType == "pig") {
-            str_spriteLocation = "assets/Ang_Birds/Pig.png";
+            str_spriteLocation = "../assets/Ang_Birds/Pig.png";
             rect_spriteRect = sf::IntRect(0, 0, 433, 427);
         }
         else if (str_enemyType == "armoured") {
-            str_spriteLocation = "assets/Ang_Birds/sprite_3.png";
+            str_spriteLocation = "../assets/Ang_Birds/sprite_3.png";
             rect_spriteRect = sf::IntRect(0, 0, 105, 91);
         }
         else if (str_enemyType == "baron") {
-            str_spriteLocation = "assets/Ang_Birds/sprite_5.png";
+            str_spriteLocation = "../assets/Ang_Birds/sprite_5.png";
             rect_spriteRect = sf::IntRect(0, 0, 120, 109);
         }
     }
