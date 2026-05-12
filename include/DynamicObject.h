@@ -3,9 +3,6 @@
 
 class DynamicObject : public GameObject {
 protected:
-	sf::Sprite sp_rendered;
-	sf::Texture sf_tex;
-	sf::IntRect rect_spriteRect;
 	b2BodyDef b2_bodyDef;
 	b2FixtureDef b2_fixtureDef;
 	b2Body* b2_body;
@@ -17,8 +14,10 @@ public:
 		}
 
 		sp_rendered = sf::Sprite(sf_tex, rect_spriteRect);
+		sp_rendered.scale(f_spriteScaleX, f_spriteScaleY);
 
 		sp_rendered.setOrigin(sf_tex.getSize().x / 2.0f, sf_tex.getSize().y / 2.0f);
+		sp_rendered.move(sf_tex.getSize().x * f_spriteScaleX / 2.0f, sf_tex.getSize().y * f_spriteScaleY / 2.0f);
 	}
 
 	void render(sf::RenderWindow& sf_window) override {

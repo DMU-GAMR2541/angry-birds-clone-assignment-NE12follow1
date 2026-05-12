@@ -10,6 +10,11 @@ protected:
 	b2Vec2 v_Pos = b2Vec2(f_xPos, f_yPos);
 	std::string str_spriteLocation;
 	sf::RenderWindow sf_window;
+	sf::Sprite sp_rendered;
+	sf::Texture sf_tex;
+	sf::IntRect rect_spriteRect;
+	float f_spriteScaleX;
+	float f_spriteScaleY;
 
 public:
 

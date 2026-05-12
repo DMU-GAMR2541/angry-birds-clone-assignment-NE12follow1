@@ -17,19 +17,21 @@ private:
 public:
     //Default constructor for an enemy. 
     Pig() = default;
-    Pig(std::string str_enemyType, int i_initialHealth, float x, float y) {
+    Pig(std::string str_enemyType, int i_initialHealth, float f_posX, float f_posY) {
         this->str_enemyType = str_enemyType;
         this->i_maxHealth = i_initialHealth;
         this->i_health = i_maxHealth;
         this->i_healthThreashold = 1;
         this->b_isDestroyed = false;
-        this->f_xPos = x;
-        this->f_yPos = y;
-        this->v_Pos = b2Vec2(x, y);
+        this->f_xPos = f_posX;
+        this->f_yPos = f_posY;
+        this->v_Pos = b2Vec2(f_posX, f_posY);
 
         if (str_enemyType == "pig") {
             str_spriteLocation = "../assets/Ang_Birds/Pig.png";
             rect_spriteRect = sf::IntRect(0, 0, 433, 427);
+            this->f_spriteScaleX = 0.25;
+            this->f_spriteScaleY = 0.25;
         }
         else if (str_enemyType == "armoured") {
             str_spriteLocation = "../assets/Ang_Birds/sprite_3.png";
@@ -51,12 +53,12 @@ public:
             i_health = 0;
             b_isDestroyed = true;
         }
-        else if ((i_health / i_maxHealth) >= 0.5) {
+        /*else if ((i_health / i_maxHealth) >= 0.5) {
             i_healthThreashold = 2;
         }
         else {
             i_healthThreashold = 3;
-        }
+        }*/
     }
 
     int getHealth() const { 
