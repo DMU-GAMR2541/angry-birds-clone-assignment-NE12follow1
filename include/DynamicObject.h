@@ -23,4 +23,6 @@ public:
 	void render(sf::RenderWindow& sf_window) override {
 		sf_window.draw(sp_rendered);
 	}
+
+	virtual void setupB2d(b2World &b2_world) = 0;
 };

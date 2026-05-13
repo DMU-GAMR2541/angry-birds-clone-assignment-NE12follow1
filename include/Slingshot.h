@@ -13,6 +13,7 @@ private:
     int i_tension;
     std::string str_birdType;
     const int MAX_TENSION = 100;
+    b2CircleShape b2_dynamicCircle;
 
 public:
     Slingshot() = default;
@@ -21,7 +22,7 @@ public:
         this->str_birdType = "Red";
         this->f_xPos = x;
         this->f_yPos = y;
-        this->v_Pos = b2Vec2(x, y);
+        this->b2_pos = b2Vec2(x, y);
     }
     ~Slingshot() {}
 
@@ -34,6 +35,20 @@ public:
         return true;
     }
 
+    void setupB2d(b2World& b2_world) override {
+        b2_bodyDef.type = b2_dynamicBody;
+        b2_bodyDef.position = b2_pos;
+
+        b2_body = b2_world.CreateBody(&b2_bodyDef);
+
+        b2_fixtureDef.shape = &b2_dynamicCircle;
+        b2_fixtureDef.density = 1.0f;
+        b2_fixtureDef.friction = 0.3f;
+        b2_fixtureDef.restitution = 0.5f;
+
+        b2_body->CreateFixture(&b2_fixtureDef);
+    }
+
     int getTension() const { 
         return i_tension; 
     }
@@ -42,5 +57,7 @@ public:
         return str_birdType; 
     }
 
-    void release() { i_tension = 0; }
+    void release() { 
+        i_tension = 0; 
+    }
 };

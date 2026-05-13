@@ -25,7 +25,7 @@ public:
         this->b_isDestroyed = false;
         this->f_xPos = f_posX;
         this->f_yPos = f_posY;
-        this->v_Pos = b2Vec2(f_posX, f_posY);
+        this->b2_pos = b2Vec2(f_posX, f_posY);
 
         if (str_enemyType == "pig") {
             str_spriteLocation = "../assets/Ang_Birds/Pig.png";
@@ -65,11 +65,18 @@ public:
         }*/
     }
 
-    void setupB2d() {
+    void setupB2d(b2World &b2_world) override {
+        b2_bodyDef.type = b2_dynamicBody;
+        b2_bodyDef.position = b2_pos;
+
+        b2_body = b2_world.CreateBody(&b2_bodyDef);
+
         b2_fixtureDef.shape = &b2_dynamicCircle;
         b2_fixtureDef.density = 1.0f;
         b2_fixtureDef.friction = 0.3f;
         b2_fixtureDef.restitution = 0.5f;
+
+        b2_body->CreateFixture(&b2_fixtureDef);
     }
 
     int getHealth() const { 
