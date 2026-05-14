@@ -15,6 +15,9 @@
     <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\NonInteractable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\Pig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -24,10 +27,7 @@
     <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\StaticObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="UI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NonInteractable.h">
+    <ClInclude Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\include\UI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

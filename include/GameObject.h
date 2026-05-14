@@ -8,6 +8,9 @@ class GameObject {
 protected:
 	float f_xPos = 0.0f;
 	float f_yPos = 0.0f;
+	b2BodyDef b2_bodyDef;
+	b2FixtureDef b2_fixtureDef;
+	b2Body* b2_body;
 	b2Vec2 b2_pos = b2Vec2(f_xPos, f_yPos);
 	std::string str_spriteLocation;
 	sf::RenderWindow sf_window;
@@ -23,5 +26,5 @@ public:
 
 	virtual void render(sf::RenderWindow& sf_window) = 0;
 
-
+	virtual void updateVisual(float SCALE, float PI) = 0;
 };

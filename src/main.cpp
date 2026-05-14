@@ -90,8 +90,9 @@ int main() {
     sf_ballVisual.setOrigin(15.0f, 15.0f);
     sf_ballVisual.setFillColor(sf::Color::Yellow);
 
-    std::unique_ptr<Pig> pig1 (new Pig("baron", 100, 0, 0));
+    std::unique_ptr<Pig> pig1 (new Pig("pig", 100, 400 / SCALE, 500 / SCALE));
     pig1->loadSprite();
+    pig1->setupB2d(world);
 
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {
@@ -131,6 +132,9 @@ int main() {
         // Dynamic wall.
         sf_plankVisual.setPosition(b2_plankBody->GetPosition().x * SCALE, b2_plankBody->GetPosition().y * SCALE);
         sf_plankVisual.setRotation(b2_plankBody->GetAngle() * (180.0f / PI));
+
+
+        pig1->updateVisual(SCALE, PI);
 
         //Render all of the content at each frame. Remember you need to clear the screen each iteration or artefacts remain.
         window.clear(sf::Color(135, 206, 235)); // Sky Blue

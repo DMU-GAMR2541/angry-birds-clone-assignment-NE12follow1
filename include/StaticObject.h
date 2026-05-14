@@ -1,11 +1,11 @@
 #pragma once
 #include "GameObject.h"
 
-class StaticObject : public GameObject {
+class StaticObject : public virtual GameObject {
 protected:
-
+	
 public:
-	void loadSprite() override {
+	virtual void loadSprite() override {
 		if (!sf_tex.loadFromFile(str_spriteLocation)) {
 			std::cout << "Failed to load texture: " << str_spriteLocation << std::endl;
 		}
@@ -18,7 +18,13 @@ public:
 		sp_rendered.move(sf_tex.getSize().x * f_spriteScaleX / 2.0f, sf_tex.getSize().y * f_spriteScaleY / 2.0f);
 	}
 
-	void render(sf::RenderWindow& sf_window) override {
+	virtual void render(sf::RenderWindow& sf_window) override {
 		sf_window.draw(sp_rendered);
+	}
+
+	virtual void updateVisual(float SCALE, float PI) override {
+		sp_rendered.setPosition(b2_body->GetPosition().x * SCALE, b2_body->GetPosition().y * SCALE);
+		sp_rendered.move(sf_tex.getSize().x * f_spriteScaleX / 2.0f, sf_tex.getSize().y * f_spriteScaleY / 2.0f);
+		sp_rendered.setRotation(b2_body->GetAngle() * (180.0f / PI));
 	}
 };
