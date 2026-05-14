@@ -7,48 +7,54 @@ class Pig : public DynamicObject {
 /// Varaibles that define an enemy.
 /// </summary>
 private:
+    int i_maxHealth;
+    int i_health;
+    bool b_isDestroyed;
+    //int i_healthThreashold;
+    b2CircleShape b2_dynamicCircle;
+    std::string str_type;
+public:
     enum Type {
         PIG,
         ARMOURED,
         BARON
     };
-    int i_maxHealth;
-    int i_health;
-    bool b_isDestroyed;
-    Type enum_enemyType;
-    //int i_healthThreashold;
-    b2CircleShape b2_dynamicCircle;
-public:
     //Default constructor for an enemy. 
     Pig() = default;
-    Pig(Type enum_enemyType, float f_posX, float f_posY) {
-        this->enum_enemyType = enum_enemyType;
+    Pig(std::string str_enemyType, float f_posX, float f_posY) {
+        this->str_type = str_enemyType;
         //this->i_healthThreashold = 1;
         this->b_isDestroyed = false;
         this->f_xPos = f_posX;
         this->f_yPos = f_posY;
         this->b2_pos = b2Vec2(f_posX, f_posY);
 
-        if (enum_enemyType == PIG) {
+        if (str_enemyType == "pig") {
             str_spriteLocation = "../assets/Ang_Birds/Pig.png";
             rect_spriteRect = sf::IntRect(0, 0, 433, 427);
             this->f_spriteScaleX = 0.125;
             this->f_spriteScaleY = 0.125;
             this->i_maxHealth = 100;
+            this->vec_texSize = b2Vec2(433, 427);
+            b2_dynamicCircle.m_radius = 25 / 30;
         }
-        else if (enum_enemyType == ARMOURED) {
+        else if (str_enemyType == "armoured") {
             str_spriteLocation = "../assets/Ang_Birds/sprite_3.png";
             rect_spriteRect = sf::IntRect(4, 2, 105, 91);
             this->f_spriteScaleX = 0.75;
             this->f_spriteScaleY = 0.75;
             this->i_maxHealth = 150;
+            this->vec_texSize = b2Vec2(105, 91);
+            b2_dynamicCircle.m_radius = 35 / 30;
         }
-        else if (enum_enemyType == BARON) {
+        else if (str_enemyType == "baron") {
             str_spriteLocation = "../assets/Ang_Birds/sprite_5.png";
             rect_spriteRect = sf::IntRect(10, 4, 120, 109);
             this->f_spriteScaleX = 0.8;
             this->f_spriteScaleY = 0.8;
             this->i_maxHealth = 180;
+            this->vec_texSize = b2Vec2(120, 109);
+            b2_dynamicCircle.m_radius = 45 / 30;
         }
 
         this->i_health = i_maxHealth;
@@ -94,13 +100,13 @@ public:
         i_health = health;
     }
 
-    std::string getType() {
-        return str_enemyType;
+    /*enum Type getType() {
+        return enum_type;
     }
 
-    void setType(std::string type) {
-        str_enemyType = type;
-    }
+    void setType(enum Type type) {
+        enum_type = type;
+    }*/
 
     bool checkIfPopped() const {
         return b_isDestroyed;
