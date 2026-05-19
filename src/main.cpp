@@ -71,8 +71,8 @@ int main() {
     sf_plankVisual.setOrigin(10.0f, 60.0f);
     sf_plankVisual.setFillColor(sf::Color(139, 69, 19)); // Brown
 
-    //Create a ball that is fired when space is pressed. We need to first have a dynamic ball to do it.
-    /*b2BodyDef b2_ballDef;
+    /*//Create a ball that is fired when space is pressed. We need to first have a dynamic ball to do it.
+    b2BodyDef b2_ballDef;
     b2_ballDef.type = b2_dynamicBody;
     b2_ballDef.position.Set(100.0f / SCALE, 500.0f / SCALE);
     b2Body* b2_ballBody = world.CreateBody(&b2_ballDef);
@@ -90,12 +90,12 @@ int main() {
     sf_ballVisual.setOrigin(15.0f, 15.0f);
     sf_ballVisual.setFillColor(sf::Color::Yellow);*/
 
-    std::unique_ptr<Bird> bird(new Bird("red", 0, 0));
+    std::unique_ptr<Bird> bird(new Bird("blue", 0, 0));
     bird->loadSprite();
     bird->setupB2d(world);
     b2Body *b2_birdBody = bird->GetBody();
 
-    std::unique_ptr<Pig> pig1(new Pig("baron", 400 / SCALE, 500 / SCALE));
+    std::unique_ptr<Pig> pig1(new Pig("pig", 400 / SCALE, 500 / SCALE));
     pig1->loadSprite();
     pig1->setupB2d(world);
 
@@ -113,12 +113,12 @@ int main() {
                     b2_birdBody->SetTransform(b2Vec2(100.0f / SCALE, 500.0f / SCALE), 0);
                     b2_birdBody->SetLinearVelocity(b2Vec2(0, 0));
                     b2_birdBody->SetAngularVelocity(0);
-                    //b2_ballBody->SetTransform(b2Vec2(100.0f / SCALE, 500.0f / SCALE), 0);
-                    //b2_ballBody->SetLinearVelocity(b2Vec2(0, 0));
-                    //b2_ballBody->SetAngularVelocity(0);
+                    /*b2_ballBody->SetTransform(b2Vec2(100.0f / SCALE, 500.0f / SCALE), 0);
+                    b2_ballBody->SetLinearVelocity(b2Vec2(0, 0));
+                    b2_ballBody->SetAngularVelocity(0);*/
 
                     // Apply impulse (X-axis, Y-axis) Negative Y is UP in Box2D because gravity is positive.
-                    b2_birdBody->ApplyLinearImpulse(b2Vec2(5.0f, -5.0f), b2_birdBody->GetWorldCenter(), true);
+                    b2_birdBody->ApplyLinearImpulse(b2Vec2(12.5f, -12.5f), b2_birdBody->GetWorldCenter(), true);
                     //b2_ballBody->ApplyLinearImpulse(b2Vec2(5.0f, -5.0f), b2_ballBody->GetWorldCenter(), true);
 
                     //std::cout << "Firing!!!!" << std::endl;
@@ -131,8 +131,8 @@ int main() {
 
         //All of the visuals needs to be synced with the physics.
 
-        //sf_ballVisual.setPosition(b2_ballBody->GetPosition().x * SCALE, b2_ballBody->GetPosition().y * SCALE);
-        //sf_ballVisual.setRotation(b2_ballBody->GetAngle() * (180.0f / PI));
+        /*sf_ballVisual.setPosition(b2_ballBody->GetPosition().x * SCALE, b2_ballBody->GetPosition().y * SCALE);
+        sf_ballVisual.setRotation(b2_ballBody->GetAngle() * (180.0f / PI));*/
 
         bird->updateVisual(SCALE, PI);
 

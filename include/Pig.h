@@ -32,29 +32,26 @@ public:
         if (str_enemyType == "pig") {
             str_spriteLocation = "../assets/Ang_Birds/Pig.png";
             rect_spriteRect = sf::IntRect(0, 0, 433, 427);
-            this->f_spriteScaleX = 0.125;
-            this->f_spriteScaleY = 0.125;
+            this->f_spriteScale = 0.125;
             this->i_maxHealth = 100;
             this->vec_texSize = b2Vec2(433, 427);
-            b2_dynamicCircle.m_radius = 25 / 30;
+            b2_dynamicCircle.m_radius = 208 * f_spriteScale / 30;
         }
         else if (str_enemyType == "armoured") {
-            str_spriteLocation = "../assets/Ang_Birds/sprite_3.png";
-            rect_spriteRect = sf::IntRect(4, 2, 105, 91);
-            this->f_spriteScaleX = 0.75;
-            this->f_spriteScaleY = 0.75;
+            str_spriteLocation = "../assets/Ang_Birds/Armoured.png";
+            rect_spriteRect = sf::IntRect(0, 0, 93, 85);
+            this->f_spriteScale = 1;
             this->i_maxHealth = 150;
-            this->vec_texSize = b2Vec2(105, 91);
-            b2_dynamicCircle.m_radius = 35 / 30;
+            this->vec_texSize = b2Vec2(93, 85);
+            b2_dynamicCircle.m_radius = 42 * f_spriteScale / 30;
         }
         else if (str_enemyType == "baron") {
-            str_spriteLocation = "../assets/Ang_Birds/sprite_5.png";
-            rect_spriteRect = sf::IntRect(10, 4, 120, 109);
-            this->f_spriteScaleX = 0.8;
-            this->f_spriteScaleY = 0.8;
+            str_spriteLocation = "../assets/Ang_Birds/Baron.png";
+            rect_spriteRect = sf::IntRect(0, 0, 112, 99);
+            this->f_spriteScale = 1;
             this->i_maxHealth = 180;
-            this->vec_texSize = b2Vec2(120, 109);
-            b2_dynamicCircle.m_radius = 45 / 30;
+            this->vec_texSize = b2Vec2(112, 99);
+            b2_dynamicCircle.m_radius = 49 * f_spriteScale / 30;
         }
 
         this->i_health = i_maxHealth;

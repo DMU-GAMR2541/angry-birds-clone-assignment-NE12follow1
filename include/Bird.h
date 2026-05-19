@@ -19,32 +19,29 @@ public:
 		if (str_type == "red") {
 			str_spriteLocation = "../assets/Ang_Birds/Red.png";
 			rect_spriteRect = sf::IntRect(0, 0, 951, 876);
-			this->f_spriteScaleX = 0.075;
-			this->f_spriteScaleY = 0.075;
+			this->f_spriteScale = 0.05;
 			this->f_speed = 10;
 			this->f_mass = 10;
 			this->vec_texSize = b2Vec2(951, 876);
-			this->b2_dynamicCircle.m_radius = 15;
+			this->b2_dynamicCircle.m_radius = 438 * f_spriteScale / 30;
 		}
 		else if (str_type == "yellow") {
 			str_spriteLocation = "../assets/Ang_Birds/Yellow.png";
 			rect_spriteRect = sf::IntRect(0, 0, 1045, 955);
-			this->f_spriteScaleX = 0.075;
-			this->f_spriteScaleY = 0.075;
+			this->f_spriteScale = 0.05;
 			this->f_speed = 30;
 			this->f_mass = 7;
 			this->vec_texSize = b2Vec2(1045, 955);
-			this->b2_dynamicCircle.m_radius = 15;
+			this->b2_dynamicCircle.m_radius = 477 * f_spriteScale / 30;
 		}
 		else if (str_type == "blue") {
 			str_spriteLocation = "../assets/Ang_Birds/Blue.png";
 			rect_spriteRect = sf::IntRect(0, 0, 1024, 1024);
-			this->f_spriteScaleX = 0.05;
-			this->f_spriteScaleY = 0.05;
-			this->f_speed = 20;
+			this->f_spriteScale = 0.035;
+			this->f_speed = 10;
 			this->f_mass = 5;
 			this->vec_texSize = b2Vec2(1024, 1024);
-			this->b2_dynamicCircle.m_radius = 15;
+			this->b2_dynamicCircle.m_radius = 512 * f_spriteScale / 30;
 		}
 	}
 

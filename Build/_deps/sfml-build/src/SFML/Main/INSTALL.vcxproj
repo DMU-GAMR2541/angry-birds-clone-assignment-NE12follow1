@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8ADB9E16-6647-360A-86A3-4CA9E7E49929}</ProjectGuid>
+    <ProjectGuid>{AC255A96-941E-3C28-85E0-C6B428D7E5D9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -125,7 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\CMakeFiles\226e97558cc2327b84ee1c1243efb7d1\INSTALL_force.rule">
+    <CustomBuild Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\CMakeFiles\e83ec02fbb689803b84b5c2b18893585\INSTALL_force.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -138,7 +138,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\sfml-build\src\SFML\Main\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\sfml-build\src\SFML\Main\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
@@ -153,7 +153,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\sfml-build\src\SFML\Main\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\sfml-build\src\SFML\Main\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
@@ -168,7 +168,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\sfml-build\src\SFML\Main\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\sfml-build\src\SFML\Main\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
@@ -183,21 +183,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\sfml-build\src\SFML\Main\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\sfml-build\src\SFML\Main\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\ZERO_CHECK.vcxproj">
-      <Project>{F22E28B0-27D2-3076-B3B2-70E9F6490B36}</Project>
+    <ProjectReference Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\ZERO_CHECK.vcxproj">
+      <Project>{B1A58586-2EE6-3F6C-B497-77B917F197E8}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\DMU\Game Programming\Year 2\GAMR2541\angry-birds-clone-assignment-NE12follow1\Build\_deps\googletest-build\googletest\ALL_BUILD.vcxproj">
-      <Project>{8B7333F8-CAD8-3355-A68C-DCB23F2DC255}</Project>
+    <ProjectReference Include="H:\Games Programming\GAMR2541\LabWork\angry-birds-clone-assignment-NE12follow1\Build\_deps\googletest-build\googletest\ALL_BUILD.vcxproj">
+      <Project>{44778751-D4F0-32E7-A85A-1BC71AE42C85}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -17,8 +17,7 @@ protected:
 	sf::Sprite sp_rendered;
 	sf::Texture sf_tex;
 	sf::IntRect rect_spriteRect;
-	float f_spriteScaleX;
-	float f_spriteScaleY;
+	float f_spriteScale;
 
 public:
 
