@@ -4,6 +4,7 @@
 #include "Pig.h"
 #include "Bird.h"
 #include "Slingshot.h"
+#include "ContactListener.h"
 
 int main() {
     // --- 1. WINDOW SETUP ---
@@ -90,14 +91,16 @@ int main() {
     sf_ballVisual.setOrigin(15.0f, 15.0f);
     sf_ballVisual.setFillColor(sf::Color::Yellow);*/
 
-    std::unique_ptr<Bird> bird(new Bird("blue", 0, 0));
+    std::unique_ptr<Bird> bird(new Bird("yellow", 0, 0));
     bird->loadSprite();
     bird->setupB2d(world);
     b2Body *b2_birdBody = bird->GetBody();
 
-    std::unique_ptr<Pig> pig1(new Pig("pig", 400 / SCALE, 500 / SCALE));
+    std::unique_ptr<Pig> pig1(new Pig("baron", 400 / SCALE, 500 / SCALE));
     pig1->loadSprite();
     pig1->setupB2d(world);
+
+    std::unique_ptr<ContactListener> contactListener(new ContactListener());
 
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {
