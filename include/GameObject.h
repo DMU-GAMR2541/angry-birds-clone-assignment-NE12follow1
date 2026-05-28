@@ -21,7 +21,7 @@ protected:
 
 public:
 
-	virtual void loadSprite() = 0;
+	virtual bool loadSprite() = 0;
 
 	virtual void render(sf::RenderWindow& sf_window) = 0;
 

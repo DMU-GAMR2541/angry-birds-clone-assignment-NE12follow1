@@ -6,5 +6,9 @@ private:
 
 public:
 	NonInteractable() = default;
+	NonInteractable() {
+
+	}
+
 	~NonInteractable() {}
 };

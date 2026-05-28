@@ -1,5 +1,4 @@
 #pragma once
-#include <iostream>
 #include "DynamicObject.h"
 
 class Pig : public DynamicObject {
@@ -87,6 +86,8 @@ public:
         b2_fixtureDef.restitution = 0.5f;
 
         b2_body->CreateFixture(&b2_fixtureDef);
+
+        //b2_body->SetUserData(this);
     }
 
     int getHealth() const { 
@@ -97,20 +98,19 @@ public:
         i_health = health;
     }
 
-    /*enum Type getType() {
-        return enum_type;
+    std::string getType() {
+        return str_type;
     }
 
-    void setType(enum Type type) {
-        enum_type = type;
-    }*/
+    void setType(std::string type) {
+        str_type = type;
+    }
 
     bool checkIfPopped() const {
         return b_isDestroyed;
     }
 
     b2Vec2 getPos() {
-        std::cout << "X: " << f_xPos << " Y: " << f_yPos;
         return b2_pos;
     }
 

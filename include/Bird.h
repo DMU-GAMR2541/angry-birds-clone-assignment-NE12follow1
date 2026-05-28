@@ -59,6 +59,8 @@ public:
 		b2_fixtureDef.restitution = 0.5f;
 
 		b2_body->CreateFixture(&b2_fixtureDef);
+
+		//b2_body->SetUserData(this);
 	}
 
 	b2Body* GetBody() {

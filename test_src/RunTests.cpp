@@ -1,12 +1,13 @@
 #include <gtest/gtest.h>
 #include "Pig.h"
 #include "Slingshot.h"
+#include "Bird.h"
 
 /// <summary>
 ///Taken from the GoogleTest primer. 
 /// </summary>
 
-// The fixture for testing class Foo.
+// The fixture for testing class Pig.
 class EnemyTest : public testing::Test {
 public:
     std::unique_ptr<Pig> enemy;
@@ -29,13 +30,14 @@ protected:
     void SetUp() override {
         // Code here will be called immediately after the constructor (right
         // before each test).
-        enemy = std::make_unique<Pig>("pig", 50, 0, 0); // All enemnies in this test suite start with 50 HP.
+        enemy = std::make_unique<Pig>("pig", 0, 0); // All enemnies in this test suite start with 50 HP.
                     
     }
 
     void TearDown() override {
         // Code here will be called immediately after each test (right
         // before the destructor).
+        //delete *enemy;
     }
 
 
@@ -51,34 +53,85 @@ protected:
 
     }
 
+    ~SlingshotTest() {}
+
     void SetUp() override {
-        slingshot = std::make_unique<Slingshot>();
+        slingshot = std::make_unique<Slingshot>(0,0);
     }
 
+    void TearDown() override {
+        //delete &slingshot;
+    }
+};
 
+// The fixture for testing class Bird.
+class BirdTest : public testing::Test {
+public:
+    std::unique_ptr<Bird> redBird;
+    std::unique_ptr<Bird> yellowBird;
+    std::unique_ptr<Bird> blueBird;
+protected:
+
+    BirdTest() {
+
+    }
+
+    ~BirdTest() {}
+
+    void SetUp() override {
+        redBird = std::make_unique<Bird>("red", 0, 0);
+        yellowBird = std::make_unique<Bird>("yellow", 0, 0);
+        blueBird = std::make_unique<Bird>("blue", 0, 0);
+    }
+
+    void TearDown() override {
+        //delete &redBird;
+        //delete &yellowBird;
+        //delete &blueBird;
+    }
+};
+
+//The fixture for testing positions and movement
+class PosTest : public testing::Test {
+public:
+
+protected:
+
+    PosTest() {}
+
+    ~PosTest() {}
+
+    void SetUp() override {
+
+    }
+
+    void TearDown() override {
+
+    }
 };
 
 //A single test, not a fixture. No setup is called.
 TEST(Pig, PigConstructorAssignsCorrectHealthValue) {
-    Pig e("pig", 100, 0, 0);
+    Pig e("pig", 0, 0);
     EXPECT_EQ(e.getHealth(), 100);
     /*SUCCEED() << "Test test passed";
     FAIL() << "Test didn't pass";*/
 }
 
 TEST(Pig, PigStartsNotPopped) {
-    Pig e("pig", 100, 0, 0);
+    Pig e("pig", 0, 0);
     EXPECT_FALSE(e.checkIfPopped());
 }
 
 TEST(Pig, PigPosSetCorrectly) {
-    Pig e("pig", 100, 15, 20);
+    Pig e("pig", 15, 20);
     ASSERT_EQ(e.getXPos(), 15);
     ASSERT_EQ(e.getYPos(), 20);
 }
 
+//Enemy Fixture Tests
 TEST_F(EnemyTest, LethalDamagePopsPig) {
-    enemy->takeDamage(60);
+    enemy->takeDamage(150);
     EXPECT_TRUE(enemy->checkIfPopped());
 }
 
@@ -105,14 +158,34 @@ TEST_F(EnemyTest, EnemyHealthCanBeChanged) {
     EXPECT_EQ(enemy->getHealth(), 150);
 }
 
+//Slingshot Fixture tests
 TEST_F(SlingshotTest, SlingshotTensionStartsAt0) {
     EXPECT_EQ(slingshot->getTension(), 0);
 }
 
 TEST_F(SlingshotTest, DefaultBirdIsRed) {
-    std::string str = "Red";
+    std::string str = "red";
     const char* c = str.c_str();
     EXPECT_STREQ(slingshot->getBirdType().c_str(), c);
+}
+
+//Bird Fixture Tests
+TEST_F(BirdTest, BirdHasSpeed) {
+    ASSERT_GT(redBird->GetSpeed(), 0);
+    ASSERT_GT(yellowBird->GetSpeed(), 0);
+    ASSERT_GT(blueBird->GetSpeed(), 0);
+}
+
+TEST_F(BirdTest, BirdHasMass) {
+    ASSERT_GT(redBird->GetMass(), 0);
+    ASSERT_GT(yellowBird->GetMass(), 0);
+    ASSERT_GT(blueBird->GetMass(), 0);
+}
+
+TEST_F(BirdTest, BirdSpriteLoads) {
+    ASSERT_TRUE(redBird->loadSprite());
+    ASSERT_TRUE(yellowBird->loadSprite());
+    ASSERT_TRUE(blueBird->loadSprite());
 }
 
 int main(int argc, char** argv) {

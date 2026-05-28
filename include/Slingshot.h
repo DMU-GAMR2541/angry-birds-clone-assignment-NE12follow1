@@ -19,7 +19,7 @@ public:
     Slingshot() = default;
     Slingshot(float x, float y) {
         this->i_tension = 0;
-        this->str_birdType = "Red";
+        this->str_birdType = "red";
         this->f_xPos = x;
         this->f_yPos = y;
         this->b2_pos = b2Vec2(x, y);
