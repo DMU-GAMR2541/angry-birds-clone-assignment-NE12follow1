@@ -56,7 +56,9 @@ public:
         this->i_health = i_maxHealth;
     }
 
-    ~Pig() {}
+    ~Pig() {
+        std::cout << "Pig Destroyed";
+    }
 
     //Class functions to be tested.
     void takeDamage(int damage) {

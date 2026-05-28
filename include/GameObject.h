@@ -21,6 +21,10 @@ protected:
 
 public:
 
+	~GameObject() { 
+		std::cout << "Game Object Destroyed"; 
+	}
+
 	virtual bool loadSprite() = 0;
 
 	virtual void render(sf::RenderWindow& sf_window) = 0;

@@ -45,7 +45,9 @@ public:
 		}
 	}
 
-	~Bird() {}
+	~Bird() {
+		std::cout << "Bird Destroyed";
+	}
 
 	void setupB2d(b2World& b2_world) override {
 		b2_bodyDef.type = b2_dynamicBody;
@@ -89,5 +91,13 @@ public:
 
 	void SetType(std::string type) {
 		str_type = type;
+	}
+
+	b2Vec2 GetPos() {
+		return b2_pos;
+	}
+
+	void SetPos(b2Vec2 newPos) {
+		b2_pos = newPos;
 	}
 };

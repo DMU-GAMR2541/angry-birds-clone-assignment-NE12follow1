@@ -10,5 +10,7 @@ public:
 
 	}
 
-	~NonInteractable() {}
+	~NonInteractable() {
+		std::cout << "Non-Interactable Destroyed";
+	}
 };

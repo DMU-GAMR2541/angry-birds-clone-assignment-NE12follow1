@@ -1,7 +1,11 @@
 #include <gtest/gtest.h>
+#include <SFML/Graphics.hpp>
+#include <box2d/box2d.h>
+#include <iostream>
 #include "Pig.h"
-#include "Slingshot.h"
 #include "Bird.h"
+#include "Slingshot.h"
+#include "ContactListener.h"
 
 /// <summary>
 ///Taken from the GoogleTest primer. 
@@ -94,15 +98,35 @@ protected:
 //The fixture for testing positions and movement
 class PosTest : public testing::Test {
 public:
+    std::unique_ptr<Pig> normalPig;
+    std::unique_ptr<Pig> armouredPig;
+    std::unique_ptr<Pig> baronPig;
+    std::unique_ptr<Bird> redBird;
+    std::unique_ptr<Bird> yellowBird;
+    std::unique_ptr<Bird> blueBird;
+
+    //Box2D works in meters. SFML works in pixels.
+    const float SCALE = 30.0f;
+
+    b2World world;
 
 protected:
 
-    PosTest() {}
+    PosTest() = default;
 
     ~PosTest() {}
 
     void SetUp() override {
+        normalPig = std::make_unique<Pig>("pig", 0, 0);
+        armouredPig = std::make_unique<Pig>("armoured", 0, 0);
+        baronPig = std::make_unique<Pig>("baron", 0, 0);
+        redBird = std::make_unique<Bird>("red", 0, 0);
+        yellowBird = std::make_unique<Bird>("yellow", 0, 0);
+        blueBird = std::make_unique<Bird>("blue", 0, 0);
 
+        //setup world.
+        b2Vec2 b2_gravity(0.0f, 9.8f); // Earth-like gravity
+        b2World world(b2_gravity);
     }
 
     void TearDown() override {
@@ -187,6 +211,17 @@ TEST_F(BirdTest, BirdSpriteLoads) {
     ASSERT_TRUE(yellowBird->loadSprite());
     ASSERT_TRUE(blueBird->loadSprite());
 }
+
+//Position Fixture Tests
+/*TEST_F(PosTest, DynamicObjectMovesUponImpulse) {
+    redBird->loadSprite();
+    redBird->setupB2d(world);
+    b2Body* b2_birdBody = redBird->GetBody();
+    b2_birdBody->ApplyLinearImpulse(b2Vec2(5.0f, 0.0f), b2_birdBody->GetWorldCenter(), true);
+    world.Step(1.0f / 60.0f, 8, 3);
+    ASSERT_EQ(redBird->GetPos(), b2Vec2(5, 0));
+}
+*/
 
 int main(int argc, char** argv) {
     testing::InitGoogleTest(&argc, argv);

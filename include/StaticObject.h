@@ -5,6 +5,11 @@ class StaticObject : public virtual GameObject {
 protected:
 	
 public:
+	StaticObject() = default;
+	~StaticObject() { 
+		std::cout << "Static Object Destroyed"; 
+	}
+
 	virtual bool loadSprite() override {
 		if (!sf_tex.loadFromFile(str_spriteLocation)) {
 			std::cout << "Failed to load texture: " << str_spriteLocation << std::endl;
@@ -13,7 +18,6 @@ public:
 		else {
 			return true;
 		}
-
 
 		sp_rendered = sf::Sprite(sf_tex, rect_spriteRect);
 		sp_rendered.scale(f_spriteScale, f_spriteScale);

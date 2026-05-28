@@ -5,6 +5,11 @@ class DynamicObject : public virtual GameObject {
 protected:
 	b2Vec2 vec_texSize;
 public:
+	DynamicObject() = default;
+	~DynamicObject() { 
+		std::cout << "Dynamic Object Destroyed"; 
+	}
+
 	virtual bool loadSprite() override {
 		if (!sf_tex.loadFromFile(str_spriteLocation)) {
 			std::cout << "Failed to load texture: " << str_spriteLocation << std::endl;

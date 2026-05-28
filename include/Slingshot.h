@@ -24,7 +24,9 @@ public:
         this->f_yPos = y;
         this->b2_pos = b2Vec2(x, y);
     }
-    ~Slingshot() {}
+    ~Slingshot() { 
+        std::cout << "Slingshot Destroyed"; 
+    }
 
     //Functions to test.
     void loadBird(std::string str_type) { str_birdType = str_type; }
